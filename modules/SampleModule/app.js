@@ -17,7 +17,7 @@ Client.fromEnvironment(Transport, function (err, client) {
       if (err) {
         throw err;
       } else {
-        console.log('IoT Hub module client initialized');
+        console.log('IoT Hub module client initialized. V2!!!');
 
         // Act on input messages to the module.
         client.on('inputMessage', function (inputName, msg) {
